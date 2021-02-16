@@ -3,5 +3,12 @@ server:
   port: 8888
 # Spring
 spring:
-  cloud:    config:
-      name: config-server      server:        git:          uri: https://github.com/dmgicarloi/server-config.git
+  cloud:
+    config:
+      name: config-server
+      server:
+        git:
+          skip-ssl-validation: true
+          uri: https://github.com/dmgicarloi/server-config
+          username: carlo368723@hotmail.com
+          password: dmgicarloi2020
