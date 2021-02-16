@@ -9,7 +9,6 @@ spring:
       name: config-server
       server:
         git:
-          refreshRate: 5
           skip-ssl-validation: true
           uri: https://github.com/dmgicarloi/server-config
           username: carlo368723@hotmail.com
