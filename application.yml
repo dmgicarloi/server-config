@@ -8,7 +8,6 @@ spring:
       name: config-server
       server:
         git:
-          skip-ssl-validation: true
           uri: https://github.com/dmgicarloi/server-config
           username: carlo368723@hotmail.com
           password: dmgicarloi2020
