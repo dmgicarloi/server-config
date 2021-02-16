@@ -1,0 +1,18 @@
+# Spring
+spring:
+  application:
+    name: reports
+# Http
+server:
+  address: 127.0.0.1
+  port: 8000
+  servlet:
+    context-path: /api
+# Eureka Client
+eureka:
+  client:
+    healthcheck:
+      enabled: true
+  instance:
+    hostname: localhost
+  
